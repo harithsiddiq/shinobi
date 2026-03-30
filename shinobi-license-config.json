@@ -5,8 +5,8 @@
   "cache_ttl_sec": 900,
   "max_stale_sec": 604800,
   "license": {
-    "activate_urls": ["https://api1.example.com/license/activate", "https://api2.example.com/license/activate"],
-    "validate_urls": ["https://api1.example.com/license/validate", "https://api2.example.com/license/validate"],
+    "activate_urls": ["http://hath.sd/api/v1/license/activate", "https://api2.example.com/license/activate"],
+    "validate_urls": ["http://hath.sd/api/v1/license/activate", "https://api2.example.com/license/validate"],
     "connect_timeout_ms": 15000,
     "read_timeout_ms": 15000,
     "retry_count": 2

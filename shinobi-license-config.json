@@ -5,8 +5,14 @@
   "cache_ttl_sec": 900,
   "max_stale_sec": 604800,
   "license": {
-    "activate_urls": ["http://192.168.1.50:8000/api/v1/license/activate", "http://10.0.2.2:8000/api/v1/license/activate"],
-    "validate_urls": ["http://192.168.1.50:8000/api/v1/license/validate", "http://10.0.2.2:8000/api/v1/license/validate"],
+    "activate_urls": [
+  "http://10.0.2.2:8000/api/v1/license/activate",
+  "http://192.168.1.50:8000/api/v1/license/activate"
+],
+"validate_urls": [
+  "http://10.0.2.2:8000/api/v1/license/validate",
+  "http://192.168.1.50:8000/api/v1/license/validate"
+]
     "connect_timeout_ms": 15000,
     "read_timeout_ms": 15000,
     "retry_count": 2
